@@ -39,6 +39,15 @@ app.get('/', (req, res) => {
         mas: 'Leer más',
         quehacemos: 'Que hacemos',
         servicio: 'Descubra nuestros servicios',
+        nombre: 'La Maravilla',
+        texto:
+            'Para el trabajo, el estudio y el ocio hay internet. Se proporciona una plaza de aparcamiento para los huéspedes que han llegado en su propio coche. Aquí hay pistas equipadas para paseos, usted puede escoger una ruta rica en curiosidades. El hotel ofrece una gama completa de servicios de lavandería para sus huéspedes. El hotel dispone de habitaciones para no fumadores. El hotel dispone de una sala de masajes. Si se va de viaje y no tuvo tiempo para preparar su propia comida, solicite un almuerzo para llevar a la administración. Sirven un menú dietético (a petición de los huéspedes). Puede organizar el ocio de un niño en el patio de recreo.',
+        servicio1: 'Uno',
+        servicio2: 'Dos',
+        servicio3: 'Tres',
+        servicio4: 'Cuatro',
+        servicio5: 'Cinco',
+        servicio6: 'Seis',
     });
 });
 
@@ -126,4 +135,7 @@ app.get('/us', (req, res) => {
     });
 });
 
+app.get('*', (req, res) => {
+    res.render('404', infoGeneral);
+});
 app.listen(port, () => console.log(`Escuchando en el puerto: ${port}`));
