@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Hostal La Maravilla">
+    <meta name="keywords" content="Hostal La Maravilla, Hostal, La Maravilla, Maravilla,Vilches, Vacaciones">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="img/mifavicon.png" />
+    <title>La Maravilla</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    {{>preloder}}
+
+    <!-- Offcanvas Menu Section Begin -->
+    {{>offcanvasde}}
+    <!-- Offcanvas Menu Section End -->
+
+    <!-- Header Section Begin -->
+    {{>headerde}}
+    <!-- Header End -->
+
+    <!-- Breadcrumb Section Begin -->
+    <div class="breadcrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text">
+                        <h2>{{habitaciones}}</h2>
+                        <div class="bt-option">
+                            <a href="/home-de">{{inicio}}</a>
+                            <span>{{habitaciones}}</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="container" style="padding-left: 10%; padding-right: 10%; padding-top: 2%;">
+
+                    <div class="col-lg-12">
+                        <p style="text-align:center">{{info}}</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Rooms Section Begin -->
+    <section class="rooms-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="room-item">
+                        <img src="img/room/habitacion1.jpg" alt="">
+                        <div class="ri-text">
+                            <h4>{{habitacion1}}</h4>
+                            {{!-- <h3>159$<span>/Pernight</span></h3> --}}
+                            <p></p>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="r-o">{{tamano}}:</td>
+                                        <td>{{tamanodata1}}<sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">{{capacidad}}:</td>
+                                        <td>{{capacidaddata1}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">{{cama}}:</td>
+                                        <td>{{camadata1}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">{{servicios}}:</td>
+                                        <td>{{serviciosdata1}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <a href="/contact-de" class="primary-btn">{{detalles}}</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="room-item">
+                        <img src="img/room/habitacion2.jpg" alt="">
+                        <div class="ri-text">
+                            <h4>{{habitacion2}}</h4>
+                            {{!-- <h3>159$<span>/Pernight</span></h3> --}}
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="r-o">{{tamano}}:</td>
+                                        <td>{{tamanodata2}}<sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">{{capacidad}}:</td>
+                                        <td>{{capacidaddata2}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">{{cama}}:</td>
+                                        <td>{{camadata2}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">{{servicios}}:</td>
+                                        <td>{{serviciosdata2}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <a href="/contact-de" class="primary-btn">{{detalles}}</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="room-item">
+                        <img src="img/room/habitacion3.jpg" alt="">
+                        <div class="ri-text">
+                            <h4>{{habitacion3}}</h4>
+                            {{!-- <h3>159$<span>/Pernight</span></h3> --}}
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="r-o">{{tamano}}:</td>
+                                        <td>{{tamanodata3}}<sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">{{capacidad}}:</td>
+                                        <td>{{capacidaddata3}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">{{cama}}:</td>
+                                        <td>{{camadata3}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">{{servicios}}:</td>
+                                        <td>{{serviciosdata3}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <a href="/contact-de" class="primary-btn">{{detalles}}</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="room-item">
+                        <img src="img/room/habitacion4.jpg" alt="">
+                        <div class="ri-text">
+                            <h4>{{habitacion4}}</h4>
+                            {{!-- <h3>159$<span>/Pernight</span></h3> --}}
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="r-o">{{tamano}}:</td>
+                                        <td>{{tamanodata4}}<sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">{{capacidad}}:</td>
+                                        <td>{{capacidaddata4}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">{{cama}}:</td>
+                                        <td>{{camadata4}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">{{servicios}}:</td>
+                                        <td>{{serviciosdata4}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <a href="/contact-de" class="primary-btn">{{detalles}}</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="room-item">
+                        <img src="img/room/cabana.jpg" alt="">
+                        <div class="ri-text">
+                            <h4>{{cabana}}</h4>
+                            {{!-- <h3>159$<span>/Pernight</span></h3> --}}
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="r-o">{{tamano}}:</td>
+                                        <td>{{tamanodata5}}<sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">{{capacidad}}:</td>
+                                        <td>{{capacidaddata5}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">{{cama}}:</td>
+                                        <td>{{camadata5}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">{{servicios}}:</td>
+                                        <td>{{serviciosdata5}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <a href="/contact-de" class="primary-btn">{{detalles}}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Rooms Section End -->
+
+    <!-- Footer Section Begin -->
+    {{>footer}}
+</body>
+
+</html>
