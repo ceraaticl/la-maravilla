@@ -4,11 +4,11 @@ const infoGeneralEn = {
     facebook: 'https://www.facebook.com/Hostal-La-Maravilla-343037112469747/',
     idioma: 'EN',
     bandera: 'img/reino-unido.png',
-    inicio: 'Inicio',
-    habitaciones: 'Habitaciones',
-    nosotros: 'Sobre nosotros',
-    contacto: 'Contacto',
-    frase: 'El lugar en donde nacen infinitas maravillas.',
+    inicio: 'Home',
+    habitaciones: 'Rooms',
+    nosotros: 'About us',
+    contacto: 'Contact',
+    frase: 'The place where infinite wonders are born.',
     direccion:
         'Los Montes Parcela 323 Lote B, Región del Maule, San Clemente. Chile',
     casilla: ' La Maravilla, casilla 24, San Clemente',
@@ -41,10 +41,7 @@ const contactoEn = {
     info2: 'Teléfono',
     info3: 'Correo',
     info4: 'Casilla',
-    info5: 'Nombre',
-    info6: 'Correo',
-    info7: 'Mensaje',
-    info8: 'Enviar ahora',
+    mensaje: 'Te esperamos!',
 };
 
 const habitacionEn = {

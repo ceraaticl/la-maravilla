@@ -41,10 +41,7 @@ const contactoDe = {
     info2: 'Teléfono',
     info3: 'Correo',
     info4: 'Casilla',
-    info5: 'Nombre',
-    info6: 'Correo',
-    info7: 'Mensaje',
-    info8: 'Enviar ahora',
+    mensaje: 'Te esperamos!',
 };
 
 const habitacionDe = {
