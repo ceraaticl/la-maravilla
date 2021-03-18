@@ -82,7 +82,7 @@ const habitacionDe = {
 const nosotrosDe = {
     titulo: 'Bienvenido a la Maravilla.',
     texto:
-        'Luego de viajar por gran parte de Chile descubrí que en la séptima regio del Maule se encuentra un Chile autentico con un hermoso clima mediterráneo. Para mí fue una maravilla el encontrar este lugar tan especial. Alrededor de donde estamos ubicados se encuentran parques nacionales, lagunas, lagos, termas, saltos, viñas para visitar, montañas y volcanes para subir. En su estadía les ayudaremos con las informaciones necesarias para descubrir los atractivos turísticos de la zona.',
+        'Luego de viajar por gran parte de Chile descubrí que en la séptima region del Maule se encuentra un Chile autentico con un hermoso clima mediterráneo. Para mí fue una maravilla el encontrar este lugar tan especial. Alrededor de donde estamos ubicados se encuentran parques nacionales, lagunas, lagos, termas, saltos, viñas para visitar, montañas y volcanes para subir. En su estadía les ayudaremos con las informaciones necesarias para descubrir los atractivos turísticos de la zona.',
     servicio1: 'Desayuno diario incluido.',
     servicio2: 'Aparcamiento privado gratis.',
     servicio3: 'Piscina al aire libre.',
@@ -95,7 +95,7 @@ const nosotrosDe = {
     titulo2: 'Descubre Nuestro Hostal Desde las Alturas.',
     titulo3: 'Sobre mí',
     titulo4: 'Marion',
-    p0: 'A Temprana edad salí a descubrir el gran y ancho mundo.',
+    p0: 'A temprana edad salí a descubrir el gran y ancho mundo.',
     p1:
         'Mi iniciación comenzó en la selva negra, de la cual emigré para conocer nuevos países y culturas, nuevos continentes, encontrar en ellos cosas nuevas y una de mis principales razones, fue escapar del frío.',
     p2:
